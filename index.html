@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+<title>Beverage Vending Machine</title>
+<script type="text/javascript" src="script.js">
+    
+</script>
+
+<style>
+    img{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+    button{
+        margin-left: 10px;
+
+    }
+    
+   
+    header{
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        background-color: purple;
+    }
+    table{
+        text-align: center;
+    }
+    body{
+        background-color:rgba(222, 184, 135, 0.534);
+    }
+     input{
+	outline: 0;
+	border-radius: 3px;
+	width: 90%;
+	border: 0%;
+	margin: 1px;
+	padding:5px;
+	box-sizing: border-box;
+	font-size: 12px;
+	
+
+}
+
+</style>
+</head>
+<body>
+    <header>Tarun Coldrinks</header>
+    <table>
+        <tr>
+   
+    
+    <td>
+        <img src="coca-cola.jpg" alt="coca-cola.jpg">  <br>
+        <input type="number" id="name1" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Coca-Cola')">Viwe Price</button><br>
+    <p id="print1"></p>
+    </td>
+
+    <td>
+        <img src="pepsi.jpg" alt="pepsi.jpg"><br>
+        <input type="number" id="name2" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Pepsi')">Viwe Price</button><br>
+    <p id="print2"></p>
+    
+    </td>
+
+    <td>
+        <img src="red.jpg" alt="red.jpg"><br>
+        <input type="number" id="name3" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Red Bull')">Viwe Price</button><br>
+    <p id="print3"></p>
+    
+    </td>
+
+    <td>
+        <img src="spyci.jpg" alt="spyci.jpg"><br>
+        <input type="number" id="name4" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Spyci')">Viwe Price</button><br>
+    <p id="print4"></p>
+    
+</td>
+
+<td>
+    <img src="sprite.jpg" alt="sprite.jpg"><br>
+    <input type="number" id="name5" placeholder="Enter Quntity"><br>
+<button onclick="printBeverage('Sprite')">Viwe Price</button><br>
+<p id="print5"></p>
+
+</td>
+
+<td>
+    <img src="mirinda.jpg" alt="mirinda.jpg">
+    <input type="number" id="name6" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Mirinda')">Viwe Price</button><br>
+    <p id="print6"></p>
+    
+</td>
+</tr>
+
+
+<tr>   
+<td>
+    <img src="Gatorade.jpg" alt="Gatorade.jpg"><br>
+    <input type="number" id="name7" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Gatorade')">Viwe Price</button><br>
+    <p id="print7"></p>
+    
+</td>
+<td>
+    <img src="Diet Coke.jpg" alt="Diet Coke.jpg"><br>
+    <input type="number" id="name8" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Diet Coke')">Viwe Price</button><br>
+    <p id="print8"></p>
+    
+
+</td>
+
+    <td>
+        <img src="mountain dew.jpg" alt="mountain dew.jpg"><br>
+        <input type="number" id="name9" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Mountain Dew')">Viwe Price</button><br>
+    <p id="print9"></p>
+    
+</td>
+<td>
+    <img src="fanta.jpg" alt="fanta.jpg"><br>
+    <input type="number" id="name10" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Fanta')">Viwe Price</button><br>
+    <p id="print10"></p>
+    
+</td>
+<td>
+    <img src="Dr pepper.jpg" alt="Dr pepper.jpg"><br>
+    <input type="number" id="name11" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Dr Pepper')">Viwe Price</button><br>
+    <p id="print11"></p>
+    
+</td>
+<td>
+    <img src="tropicana.jpg" alt="tropicana.jpg"><br>
+    <input type="number" id="name12" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Tropicana')">Viwe Price</button><br>
+    <p id="print12"></p>
+    
+</td>
+</tr>
+
+
+<tr>
+    <td>
+        <img src="7-up.jpg" alt="7-up.jpg"><br>
+        <input type="number" id="name13" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('7-Up')">Viwe Price</button><br>
+    <p id="print13"></p>
+</td>
+<td>
+    <img src="maaza.jpg" alt="maaza.jpg"><br>
+    <input type="number" id="name14" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Maaza')">Viwe Price</button><br>
+    <p id="print14"></p>
+</td>
+<td>
+    <img src="coke zero.jpg" alt="coke zero.jpg"><br>
+    <input type="number" id="name15" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Coke Zero')">Viwe Price</button><br>
+    <p id="print15"></p>
+    
+</td>
+<td>
+    <img src="Lemon juice.jpg" alt="Lemon juice.jpg"><br>
+    <input type="number" id="name16" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Lemon Juice')">Viwe Price</button><br>
+    <p id="print16"></p>
+    
+</td>
+<td>
+    <img src="frooti.jpg" alt="frooti.jpg"><br>
+    <input type="number" id="name17" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Frooti')">Viwe Price</button><br>
+    <p id="print17"></p>
+    
+</td>
+<td>
+    <img src="monster.jpg" alt="monster.jpg"><br>
+    <input type="number" id="name18" placeholder="Enter Quntity"><br>
+    <button onclick="printBeverage('Monster')">Viwe Price</button><br>
+    <p id="print18"></p>
+    
+</td>
+</tr>
+
+</table>
+</body>
+</html>
